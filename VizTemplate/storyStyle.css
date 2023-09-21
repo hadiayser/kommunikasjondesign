@@ -1,0 +1,95 @@
+html{
+    scroll-behavior: smooth;
+}
+header{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("https://wp.en.aleteia.org/wp-content/uploads/sites/2/2017/05/web3-raphaels-school-of-athens-fresco-apostolic-palace-vatican-city-raphael-pd.jpg");
+    background-size: cover;
+    background-position: center center;
+    /* always centered^ */
+}
+h1{
+    font-size: 3rem;
+    color: #fff;
+    text-shadow: 2px 2px 2px #000;
+}
+header a{
+    background: whitesmoke;
+    color: black;
+    font-size: 1.5rem;
+    text-align: center;
+    padding: 1rem;
+    text-decoration: none;
+}
+.scrollContainer{
+    width: 100vw;
+    min-height: 60vh;
+    overflow: hidden;
+}
+.scrollText{
+    margin: 50vh auto;
+    max-width: 50rem;
+    /* makes text easier to read */
+    padding: 1rem;
+    background: rgba(255, 255, 255, 0.8);
+    color: #000;
+}
+#introduction{
+    background-image: url("https://omicron.aeon.co/images/b1c9cc82-316d-4363-a17f-ae58867e71dc/idea_essay-cole_thomas_the_course_of_empire_destruction_1836.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.textSection{
+    max-width: 50rem;
+    margin: 0 auto;
+    display: block;
+    clear: both;
+    /* display and clear makes sure nothing gets on it */
+}
+/* making circle */
+.circle{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    padding-top: 50px;
+    box-sizing: border-box;
+}
+.redBg{
+    background-color: red;
+    color: white;
+}
+.alignRight{
+    float: right;
+    margin: 0 0 1rem 1rem;
+}
+.big{
+    text-align: center;
+    font-size: 4rem;
+    display: block;
+    clear: both;
+}
+.small{
+    text-align: center;
+    font-size: 2rem;
+    display: block;
+}
+.greenBg{
+    background-color: green;
+    color: white;
+
+}
+#changingBg{
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-r: 2;
+
+
+}
